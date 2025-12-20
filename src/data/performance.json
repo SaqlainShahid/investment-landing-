@@ -1,0 +1,75 @@
+{
+  "strategies": [
+    {
+      "strategyName": "Conservative",
+      "riskLevel": 1,
+      "monthlyPerformance": [
+        {"month": "January", "value": 1.00},
+        {"month": "February", "value": 1.60},
+        {"month": "March", "value": 1.30},
+        {"month": "April", "value": -1.70},
+        {"month": "May", "value": -1.00},
+        {"month": "June", "value": 1.10},
+        {"month": "July", "value": 0.30},
+        {"month": "August", "value": 0.90},
+        {"month": "September", "value": 0.20},
+        {"month": "October", "value": -1.80}
+      ],
+      "yearlyPerformance": 13.5,
+      "sinceInception": null,
+      "maxDrawdown": null,
+      "volatility": null,
+      "sharpeRatio": null
+    },
+    {
+      "strategyName": "Weighted",
+      "riskLevel": 3,
+      "monthlyPerformance": [
+        {"month": "January", "value": -4.50},
+        {"month": "February", "value": -26.20},
+        {"month": "March", "value": -13.30},
+        {"month": "April", "value": -3.80},
+        {"month": "May", "value": -6.00},
+        {"month": "June", "value": 8.00},
+        {"month": "July", "value": 3.00},
+        {"month": "August", "value": 12.00},
+        {"month": "September", "value": 3.00},
+        {"month": "October", "value": -12.00}
+      ],
+      "yearlyPerformance": 10.6,
+      "sinceInception": null,
+      "maxDrawdown": null,
+      "volatility": null,
+      "sharpeRatio": null
+    },
+    {
+      "strategyName": "Aggressive",
+      "riskLevel": 5,
+      "monthlyPerformance": [
+        {"month": "January", "value": -7.00},
+        {"month": "February", "value": -28.40},
+        {"month": "March", "value": -16.50},
+        {"month": "April", "value": -7.00},
+        {"month": "May", "value": -8.00},
+        {"month": "June", "value": 11.00},
+        {"month": "July", "value": 3.80},
+        {"month": "August", "value": 13.80},
+        {"month": "September", "value": 5.50},
+        {"month": "October", "value": -14.50}
+      ],
+      "yearlyPerformance": 11.6,
+      "sinceInception": null,
+      "maxDrawdown": null,
+      "volatility": null,
+      "sharpeRatio": null
+    }
+  ],
+  "historical": [
+    {"year": 2024, "conservative": 13.5, "weighted": 10.6, "aggressive": 11.6},
+    {"year": 2023, "conservative": null, "weighted": null, "aggressive": null},
+    {"year": 2022, "conservative": null, "weighted": null, "aggressive": null},
+    {"year": 2021, "conservative": null, "weighted": null, "aggressive": null},
+    {"year": 2020, "conservative": null, "weighted": null, "aggressive": null},
+    {"year": 2019, "conservative": null, "weighted": null, "aggressive": null}
+  ]
+}

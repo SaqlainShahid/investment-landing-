@@ -2,8 +2,8 @@
 
 export default function Hero() {
   return (
-    <section className="max-w-7xl mx-auto px-4 py-8 md:py-10">
-      <div className="relative h-[350px] md:h-[400px] rounded-2xl overflow-hidden shadow-lg">
+    <section className="max-w-7xl mx-auto px-2 sm:px-4 py-6 sm:py-8 md:py-10">
+      <div className="relative h-[320px] sm:h-[350px] md:h-[400px] rounded-2xl overflow-hidden shadow-lg">
         <img
           src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1400&h=500&fit=crop"
           alt="Modern skyscrapers"
@@ -11,21 +11,29 @@ export default function Hero() {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 via-slate-900/70 to-slate-900/30" />
 
-        <div className="absolute inset-0 flex flex-col justify-center px-8 md:px-14">
+        <div className="absolute inset-0 flex flex-col justify-center px-4 sm:px-8 md:px-14">
           <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-3 py-1.5 mb-5 w-fit">
             <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
             <span className="text-white/90 text-xs font-medium">
               Markets are open
             </span>
           </div>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-5 max-w-lg leading-tight">
+          <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold text-white mb-4 sm:mb-5 max-w-lg leading-tight text-center sm:text-left">
             Elevate Your Investment Strategy
           </h1>
-          <p className="text-gray-300 text-sm md:text-base max-w-md mb-8 leading-relaxed">
-            Unlock the potential of your investments with WealthPath&apos;s
-            advanced performance analysis tools and data-driven insights.
+          <p className="text-gray-300 text-xs sm:text-sm md:text-base max-w-md mb-2 leading-relaxed text-center sm:text-left">
+            Access <span className="font-semibold text-white">Conservative</span>, <span className="font-semibold text-white">Weighted</span>, and <span className="font-semibold text-white">Aggressive</span> investment strategies—each designed for a different risk profile and financial goal.
           </p>
-          <div className="flex flex-wrap gap-3">
+          <p className="text-gray-200 text-xs sm:text-sm max-w-md mb-6 sm:mb-8 leading-relaxed tracking-wide text-center sm:text-left">
+            <span className="inline-flex items-center gap-2">
+              <span className="inline-block w-2 h-2 rounded-full bg-emerald-400" title="Low Risk" /> Low Risk
+              <span className="mx-2 text-gray-400">•</span>
+              <span className="inline-block w-2 h-2 rounded-full bg-amber-400" title="Balanced" /> Balanced
+              <span className="mx-2 text-gray-400">•</span>
+              <span className="inline-block w-2 h-2 rounded-full bg-red-400" title="High Risk / Leverage" /> High Risk / Leverage
+            </span>
+          </p>
+          <div className="flex flex-col sm:flex-row flex-wrap gap-3 w-full sm:w-auto justify-center sm:justify-start">
             <a
               href="#strategies"
               onClick={(e) => {

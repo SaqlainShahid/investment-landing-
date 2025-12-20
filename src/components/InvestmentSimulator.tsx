@@ -66,9 +66,9 @@ export default function InvestmentSimulator() {
   };
 
   return (
-    <div className="grid md:grid-cols-2 gap-8">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
       {/* Form */}
-      <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6">
+      <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-4 sm:p-6">
         <h3 className="font-semibold text-gray-900 mb-6">Configure Your Simulation</h3>
         
         <div className="space-y-5">
@@ -162,7 +162,7 @@ export default function InvestmentSimulator() {
       </div>
 
       {/* Results */}
-      <div className="relative rounded-2xl overflow-hidden shadow-lg" style={{ backgroundColor: activeColor }}>
+      <div className="relative rounded-2xl overflow-hidden shadow-lg mt-6 md:mt-0" style={{ backgroundColor: activeColor }}>
         <div className="absolute inset-0 bg-gradient-to-br from-black/20 to-black/40" />
         
         <div className="relative z-10 p-6 h-full flex flex-col">
