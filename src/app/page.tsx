@@ -18,8 +18,8 @@ export default function Home() {
       <Header />
       <Hero />
 
-      <section id="strategies" className="container max-w-7xl mx-auto px-2 sm:px-4 py-10 sm:py-14 scroll-mt-20">
-        <div className="flex flex-col sm:flex-row items-center justify-between mb-6 sm:mb-8 gap-4">
+      <section id="strategies" className="px-2 sm:px-4 py-10 sm:py-14 scroll-mt-20 w-full">
+        <div className="flex flex-col sm:flex-row items-center justify-between mb-6 sm:mb-8 gap-4 w-full">
           <div className="w-full sm:w-auto">
             <h2 className="text-xl sm:text-2xl font-bold text-gray-900">
               Featured Strategies
@@ -42,8 +42,8 @@ export default function Home() {
       <MonthlyPerformanceTable />
 
       {/* Simulated/backtested performance section */}
-      <section id="performance" className="bg-white border-y border-gray-100 scroll-mt-20">
-        <div className="container max-w-7xl mx-auto px-2 sm:px-4 py-10 sm:py-14">
+      <section id="performance" className="bg-white border-y border-gray-100 scroll-mt-20 w-full">
+        <div className="px-2 sm:px-4 py-10 sm:py-14 w-full">
           <div className="flex flex-col sm:flex-row items-center justify-between mb-6 sm:mb-8 gap-4">
             <div className="w-full sm:w-auto">
               <h2 className="text-xl sm:text-2xl font-bold text-gray-900">
@@ -58,8 +58,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="simulator" className="container max-w-7xl mx-auto px-2 sm:px-4 py-10 sm:py-14 scroll-mt-20">
-        <div className="flex flex-col sm:flex-row items-center justify-between mb-6 sm:mb-8 gap-4">
+      <section id="simulator" className="px-2 sm:px-4 py-10 sm:py-14 scroll-mt-20 w-full">
+        <div className="flex flex-col sm:flex-row items-center justify-between mb-6 sm:mb-8 gap-4 w-full">
           <div className="w-full sm:w-auto">
             <h2 className="text-xl sm:text-2xl font-bold text-gray-900">
               Investment Simulator
@@ -72,8 +72,8 @@ export default function Home() {
         <InvestmentSimulator />
       </section>
 
-      <section id="comparison" className="bg-white border-y border-gray-100 scroll-mt-20">
-        <div className="container max-w-7xl mx-auto px-2 sm:px-4 py-10 sm:py-14">
+      <section id="comparison" className="bg-white border-y border-gray-100 scroll-mt-20 w-full">
+        <div className="px-2 sm:px-4 py-10 sm:py-14 w-full">
           <div className="flex flex-col sm:flex-row items-center justify-between mb-6 sm:mb-8 gap-4">
             <div className="w-full sm:w-auto">
               <h2 className="text-xl sm:text-2xl font-bold text-gray-900">

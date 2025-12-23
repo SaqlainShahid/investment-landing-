@@ -22,7 +22,7 @@ export default function MonthlyPerformanceTable() {
   }));
 
   return (
-    <section className="max-w-4xl mx-auto px-2 sm:px-4 py-8 sm:py-12" aria-labelledby="real-performance-title">
+    <section className="px-2 sm:px-4 py-8 sm:py-12 w-full" aria-labelledby="real-performance-title">
       <h2 id="real-performance-title" className="text-xl sm:text-2xl font-bold text-gray-900 mb-2 text-center sm:text-left">2025 Monthly Performance (Real Results)</h2>
       <p className="text-gray-500 text-xs sm:text-sm mb-4 sm:mb-6 text-center sm:text-left">Actual monthly returns for each strategy. <span className="font-medium text-green-600">Green</span> = positive, <span className="font-medium text-red-500">Red</span> = negative.</p>
       <div className="overflow-x-auto rounded-2xl shadow border border-gray-100 bg-white">

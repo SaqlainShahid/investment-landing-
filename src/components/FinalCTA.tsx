@@ -6,7 +6,7 @@ export default function FinalCTA() {
       <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
         Ready to Start Your Investment Journey?
       </h2>
-      <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
+      <p className="text-lg text-gray-600 mb-8 leading-relaxed w-full">
         Join thousands of investors who trust us with their financial future.
         Start building wealth today with our proven strategies.
       </p>

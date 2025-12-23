@@ -3,7 +3,7 @@
 export default function Navbar() {
   return (
     <nav className="bg-white/95 backdrop-blur-md shadow-sm sticky top-0 z-50 w-full">
-      <div className="max-w-7xl mx-auto px-2 sm:px-6 py-3 sm:py-4 flex items-center justify-between">
+      <div className="px-2 sm:px-6 py-3 sm:py-4 flex items-center justify-between w-full">
         <div className="text-xl font-bold text-gray-900 tracking-tight">InvestPro</div>
         <div className="hidden md:flex items-center gap-6 lg:gap-8">
           <a href="#" className="text-gray-600 hover:text-blue-600 font-medium transition-colors min-h-[44px] flex items-center px-2">Strategies</a>

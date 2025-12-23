@@ -27,7 +27,7 @@ export default function Header() {
 
   return (
     <header className="bg-white/80 backdrop-blur-md border-b border-gray-100 sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div className="px-4 py-4 flex items-center justify-between w-full">
         <div className="flex items-center gap-2.5">
           <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center">
             <div className="w-3 h-3 bg-white rounded-sm rotate-45" />

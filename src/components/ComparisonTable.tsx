@@ -155,7 +155,7 @@ export default function ComparisonTable() {
             </table>
           </div>
         </div>
-        <p className="text-xs text-gray-400 mt-4 max-w-2xl">
+        <p className="text-xs text-gray-400 mt-4 w-full">
           <span className="font-semibold">How to interpret:</span> <br />
           <span className="font-medium text-emerald-600">Higher Sharpe</span> = better risk-adjusted returns. <span className="font-medium text-amber-600">Higher volatility</span> = more ups and downs. Compare all metrics before investing.
         </p>
