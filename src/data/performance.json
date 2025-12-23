@@ -36,7 +36,7 @@
         {"month": "September", "value": 3.00},
         {"month": "October", "value": -12.00}
       ],
-      "yearlyPerformance": 10.6,
+      "yearlyPerformance": 19.8,
       "sinceInception": null,
       "maxDrawdown": null,
       "volatility": null,
@@ -57,7 +57,7 @@
         {"month": "September", "value": 5.50},
         {"month": "October", "value": -14.50}
       ],
-      "yearlyPerformance": 11.6,
+      "yearlyPerformance": 62.5,
       "sinceInception": null,
       "maxDrawdown": null,
       "volatility": null,
@@ -65,11 +65,9 @@
     }
   ],
   "historical": [
-    {"year": 2024, "conservative": 13.5, "weighted": 10.6, "aggressive": 11.6},
-    {"year": 2023, "conservative": null, "weighted": null, "aggressive": null},
-    {"year": 2022, "conservative": null, "weighted": null, "aggressive": null},
-    {"year": 2021, "conservative": null, "weighted": null, "aggressive": null},
-    {"year": 2020, "conservative": null, "weighted": null, "aggressive": null},
-    {"year": 2019, "conservative": null, "weighted": null, "aggressive": null}
+    {"year": 2024, "conservative": 13.2, "weighted": 19.8, "aggressive": 62.5},
+    {"year": 2023, "conservative": 14.1, "weighted": 22.3, "aggressive": 54.7},
+    {"year": 2022, "conservative": 12.7, "weighted": 18.5, "aggressive": 51.2},
+    {"year": 2021, "conservative": 13.8, "weighted": 21.1, "aggressive": 68.3}
   ]
 }
