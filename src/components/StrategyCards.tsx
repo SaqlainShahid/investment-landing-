@@ -22,6 +22,8 @@ export default function StrategyCards() {
 
   const strategies = [conservative, weighted, aggressive];
 
+  const [modalOpen, setModalOpen] = useState<number | null>(null);
+
   if (loading) {
     return <div className="text-center py-10">Loading strategies...</div>;
   }
@@ -31,8 +33,6 @@ export default function StrategyCards() {
       <div className="text-center text-red-500 py-10">{error}</div>
     );
   }
-
-  const [modalOpen, setModalOpen] = useState<number | null>(null);
 
   return (
     <>

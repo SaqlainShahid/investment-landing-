@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import ErrorBoundary from "../components/ErrorBoundary";
 import ClientSafety from "../components/ClientSafety";
+import ClientOnly from "../components/ClientOnly";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -52,11 +53,13 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-white text-gray-800`}
       >
         <ClientSafety />
-        <ErrorBoundary>
-          <div className="w-full px-2 sm:px-6 md:px-8 flex flex-col min-h-screen">
-            {children}
-          </div>
-        </ErrorBoundary>
+        <ClientOnly>
+          <ErrorBoundary>
+            <div className="w-full px-2 sm:px-6 md:px-8 flex flex-col min-h-screen">
+              {children}
+            </div>
+          </ErrorBoundary>
+        </ClientOnly>
       </body>
     </html>
   );
